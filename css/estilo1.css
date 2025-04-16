@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+.sidebar {
+    flex: 1 1 auto;
+    background: linear-gradient(to bottom, #cce4f6, #a3d0f7);
+    padding: 30px;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    
+}
+.content {
+    flex: 2 1 auto;
+    padding: 33px;
+    background-color: rgb(41, 38, 53);
+    color: aliceblue;
+}

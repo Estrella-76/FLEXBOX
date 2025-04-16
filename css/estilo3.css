@@ -1,0 +1,24 @@
+body {
+    background-color: #e5e7eb; /* Tailwind's gray-200 */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+.left-column {
+    flex: 1 1 auto;
+    background: linear-gradient(to bottom, #1e3a8a, #14b8a6); /* Tailwind's blue-900 to teal-500 */
+    color: white;
+    padding: 16px; /* Tailwind's p-4 */
+}
+.right-column {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+.right-column .top,
+.right-column .bottom {
+    flex: 1;
+    background-color: rgb(200, 225, 235);
+    padding: 16px; /* Tailwind's p-4 */
+    margin-bottom: 0.1rem;
+}
